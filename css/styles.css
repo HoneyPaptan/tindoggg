@@ -1,0 +1,176 @@
+#title{
+  background-color: #9BA17B;
+  color: #fff;
+}
+
+
+body{
+    font-family: 'Montserrat-Thin', sans-serif;
+}
+
+.container-fluid{
+  padding: 6% 20%;
+  padding-top: 0;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+h3{
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  font-weight: 12px;
+}
+p{
+  color: gray;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 8px;
+}
+
+
+
+
+
+.nav-link{
+  font-weight:"Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 2% 5% 0%;
+}
+
+
+/* Title Image */
+
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+
+}
+
+
+/* FEATURES */
+#features{
+  padding: 5% 20%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+
+.icon{
+  color: #CFB997;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #9BA17B;
+}
+
+/* Testimonial section */
+#testimonials {
+
+  text-align: center;
+  background-color: #9BA17B;
+  color: #fff;
+}
+
+.testimonial-image{
+  border-radius: 300px;
+  width:20%;
+  margin-top: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* PRESS */
+#press {
+    background-color: #9BA17B;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* SIGN UP BUTTONS */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.sign-up{
+  padding-left: 81px;
+  padding-right: 81px;
+}
+.third-sign-up{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+
+.dog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@media screen and (max-width: 600px) {
+  ._maintain {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column
+  }
+  ._maintain h1{
+    text-align: center;
+  }
+}
